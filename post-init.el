@@ -229,8 +229,8 @@
                       #'cape-file
                       t)))
 
-  :hook ((prog-mode . #'my/cape-prog-setup)
-         (text-mode . #'my/cape-text-setup))
+  :hook ((prog-mode . my/cape-prog-setup)
+         (text-mode . my/cape-text-setup))
 
   :config
   ;; Global defaults (low priority, applied everywhere)
