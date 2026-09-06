@@ -5,7 +5,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(tidal vertico sly meow display-time direnv which-key nix-mode modus-themes markdown-mode magit helpful gnu-elpa-keyring-update eat corfu compile-angel cider cape bufferfile avy auto-package-update))
+   '(auto-package-update avy bufferfile cape cider compile-angel corfu direnv
+                         display-time eat gnu-elpa-keyring-update helpful magit
+                         markdown-mode meow modus-themes nix-mode sly tidal
+                         transient vertico which-key))
  '(sly-default-lisp 'sbcl))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
