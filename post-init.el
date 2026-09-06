@@ -156,7 +156,7 @@
 
 ;; Direnv
 (use-package direnv
-  :ensure nil
+  :ensure t
   :hook after-init
   ;; Super-lazy option:
   ;; :hook (find-file . (lambda () (unless direnv-mode (direnv-mode))))
